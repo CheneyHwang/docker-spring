@@ -1,0 +1,6 @@
+version: '2'
+services:
+  dockerspring:
+      image: cheneyhwang/docker-spring:tag1
+      ports:
+        - "8080:8080"
